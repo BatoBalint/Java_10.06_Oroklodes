@@ -48,7 +48,7 @@ public class Palack {
 
     @Override
     public String toString() {
-        return String.format("Palack, benne levo ital: $s, jelenleg: %d ml van benne, maximum %d ml fer bele.",
-                this.nev, this,jelenlegiUrtartalom, this,maxUrtartalom);
+        return String.format("Palack, benne levo ital: %s, jelenleg: %d ml van benne, maximum %d ml fer bele.",
+                this.nev, this.jelenlegiUrtartalom, this.maxUrtartalom);
     }
 }
